@@ -11,3 +11,7 @@ class Lottery:
     def winning_combination(self):
         winning_combination = sample(self.values, 4)
         return winning_combination
+
+    def generates_tickets(self):
+        ticket = sample(self.values, 4)
+        return ticket
